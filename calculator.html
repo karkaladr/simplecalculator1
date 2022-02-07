@@ -1,3 +1,6 @@
+ feature/subtract
+
+ develop
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -8,6 +11,7 @@ content="width=device-width, initial-scale=1, shrink-to-fit=no"
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="calculator.css" />
 <script src="calculator.js"></script>
+feature/header
 </head>
 
 
@@ -26,6 +30,9 @@ GitDemo
 </a>
 </nav>
 </header>
+
+</head> <body>
+ develop
 <div class="container">
 <div class="card text-center">
 <div class="card-header">
@@ -52,7 +59,29 @@ placeholder="Result"
 id="result"
 />
 </div>
+<div class="calculator-btn mx-auto p-4">
+<button
+type="button"
+class="btn btn-primary btn-lg btn-block mt-4"
+onclick="subtract()"
+>
+Subtract
+</button>
 </div>
+</div>
+</div>
+<div class="footer">
+<img
+src="./footer-logo-white.svg"
+style="
+height: 24px;
+width: auto;
+margin-bottom: 16px;
+margin-right: 8px;
+"
+/>
+&copy; Copyright 2021 Maveric Systems Limited
 </div>
 </body>
 </html>
+
